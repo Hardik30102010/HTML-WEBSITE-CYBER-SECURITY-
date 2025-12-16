@@ -1,4 +1,5 @@
-# HTML-WEBSITE-CYBER-SECURITY-Complete this
+<!---HTML-WEBSITE-CYBER-SECURITY-Complete this--->
+
 <HTML>
   <HEAD>
     <TITLE> CYBER SECURITY WEBSITE CLASS 8C CSET </TITLE>
@@ -11,7 +12,24 @@
       
     
       }
-     
+         .page { 
+      display: none;
+      text-align: center;
+      min-height: 100vh;
+      padding-top: 50px;
+    }
+    .active { display: block; }
+    button { 
+      margin: 10px; 
+      padding: 10px 20px; 
+      font-size: 18px; 
+      cursor: pointer; 
+      border-radius: 10px; 
+      border: solid 2px #8800ff ; 
+      background-color: #4b3ca7; 
+      color: white; 
+      transition: transform 0.2s; 
+    }
       button { 
        margin: 10px; 
        padding: 10px 20px; 
@@ -42,15 +60,43 @@ A:HOVER, A:ACTIVE {
   COLOR: #cc0cf7
   FONT–WEIGHT: BOLD;
   }
+  h3:hover{
+
+transform: rotate(360deg); 
+    transition: 5s;
+}
+h1:hover{
+
+transform: rotateY(360deg); 
+    transition: 5s;
+}
     </STYLE>
   </HEAD>
    <BODY>
-     <DIV></DIV>
+     <DIV id="home" class="page active">
+       <H1> <B>WELCOME</B></H1>
+       <br><br><br>
+       <p>cybersecurity is the practice of protecting your digital life—such as your computers, smartphones, and online accounts—from hackers who want to steal, change, or break your information.
+       </p>
+         <br><br><br><br>
+       <button onclick="showpage()"></button> <button onclick="showpage()"></button> 
+       <br><hr><br>
+       <button onclick="showpage(phishing)" >LEARN ABOUT PHISHING</button> <button onclick="showpage()"></button>
+       <br><br><br><hr><br><br>
+       
+       <h3><B>MADE BY<BR>HARDIK AWANA <BR> CLASS-8C </B></h3>
+       
+     </DIV>
 
 
-
+<div id="phishing" class="page">
+  
+</div>
      <SCRIPT>
-     
+     function showPage(id) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+  }
      </SCRIPT>
    </BODY>
 </HTML>
