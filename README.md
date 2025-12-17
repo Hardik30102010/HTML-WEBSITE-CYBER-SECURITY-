@@ -76,8 +76,7 @@ transform: rotateY(360deg);
      <DIV id="home" class="page active">
        <H1> <B>WELCOME</B></H1>
        <br><br><br>
-       <p>cybersecurity is the practice of protecting your digital life—such as your computers, smartphones, and online accounts—from hackers who want to steal, change, or break your information.
-       </p>
+       <p>cybersecurity is the practice of protecting your digital life—such as your computers, smartphones, and online accounts—from hackers who want to steal, change, or break your information. </p>
          <br><br><br><br>
        <button onclick="showpage()"></button> <button onclick="showpage()"></button> 
        <br><hr><br>
