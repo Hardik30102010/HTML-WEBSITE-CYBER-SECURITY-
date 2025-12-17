@@ -80,19 +80,20 @@ transform: rotateY(360deg);
          <br><br><br><br>
        <button onclick="showpage()"></button> <button onclick="showpage()"></button> 
        <br><hr><br>
-       <button onclick="showpage(phishing)" >LEARN ABOUT PHISHING</button> <button onclick="showpage()"></button>
+       <button onclick="showpage(phishing)" >LEARN <br> ABOUT <br>PHISHING</button> <button onclick="showpage()">LAERN<BR>ABOUT<BR>SOMETHING</button>
        <br><br><br><hr><br><br>
        
        <h3><B>MADE BY<BR>HARDIK AWANA <BR> CLASS-8C </B></h3>
-       
-     </DIV>
+       <BR><BR><BR>
+      
+      </DIV>
 
 
 <div id="phishing" class="page">
   
 </div>
      <SCRIPT>
-     function showPage(id) {
+     function showpage(id) {
     document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
     document.getElementById(id).classList.add('active');
   }
