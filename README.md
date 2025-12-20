@@ -78,9 +78,9 @@ transform: rotateY(360deg);
        <br><br><br>
        <p>cybersecurity is the practice of protecting your digital life—such as your computers, smartphones, and online accounts—from hackers who want to steal, change, or break your information. </p>
          <br><br><br><br>
-       <button onclick="showpage()"></button> <button onclick="showpage()"></button> 
+       <button onclick="showpage('cyberlaws')">LEARN<br>ABOUT<br>CYBER LAWS IN INDIA</button> <button onclick="showpage('')"></button> 
        <br><hr><br>
-       <button onclick="showpage(phishing)" >LEARN <br> ABOUT <br>PHISHING</button> <button onclick="showpage()">LAERN<BR>ABOUT<BR>SOMETHING</button>
+       <button onclick="showpage('phishing')" >LEARN <br> ABOUT <br>PHISHING</button> <button onclick="showpage('')">LAERN<BR>ABOUT<BR>SOMETHING</button>
        <br><br><br><hr><br><br>
        
        <h3><B>MADE BY<BR>HARDIK AWANA <BR> CLASS-8C </B></h3>
@@ -88,7 +88,42 @@ transform: rotateY(360deg);
       
       </DIV>
 
-
+<div id="cyberlaws" class="page"> 
+<h1><B>CYBER LAWS IN INDIA</B></h1>
+  <BR><BR><BR><HR><BR><BR>
+  <P><B>Information Technology Act, 2000 (IT Act): </B>
+    <br>The foundational law, enabling e-commerce, recognizing electronic records/signatures, and establishing offenses. 
+    <br><br>
+<b>IT (Amendment) Act, 2008: </b><br>Expanded the IT Act, introducing new offenses (like publishing private images) and increasing penalties. 
+    <br><br>
+<b>Indian Penal Code (IPC):</b><br> Sections of the IPC (e.g., cheating, forgery, defamation) are applied to cybercrimes. 
+    <br><br>
+<b>IT Rules, 2011 (and subsequent) : </b><br>Detailed rules for implementing the IT Act, covering intermediaries, digital signatures, etc. 
+    <br><br>
+<b>Digital Personal Data Protection Act, 2023 (DPDP Act):</b><br> Focuses specifically on processing personal data, balancing individual privacy with data fiduciary needs. 
+    <br><br>
+<b>National Cyber Security Framework (NCSF):</b><br> Outlines national strategies for cybersecurity. </P>
+    <br><br><br><hr><br><br><br>
+<h2><b>Core Concepts & Offences under IT Act, 2000/2008</b></h2>
+  <br><br><hr><br><br>
+<p><b>Legal Recognition:</b>
+  <br>
+  Validates electronic records, digital signatures, and e-governance. 
+  <br>
+<b>Cyber Crimes & Penalties:-</b>
+  <br><br>
+  <ul>
+<li><b>Tampering/Hacking (Sec 66):</b> Unauthorized access/damage to computer systems. </li>
+<li><b>Identity Theft (Sec 66C):</b> Fraudulent use of IDs. 
+Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li>
+<li><b>Publishing Private/Obscene Content (Sec 66E/67): </b>Violating privacy or posting explicit material. </li>
+<li><b>Offensive Messages (Sec 66A - struck down by Supreme Court): </b>Intended to cause annoyance.</li>
+  </ul>
+  <br><br><br>
+<b>Data Protection: Addresses data security and breach notification.</b>
+</p>
+  <br><br><br><br><br>
+</div>
 <div id="phishing" class="page">
   
 </div>
