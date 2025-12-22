@@ -80,14 +80,26 @@ transform: rotateY(360deg);
          <br><br><br><br>
        <button onclick="showpage('cyberlaws')">LEARN<br>ABOUT<br>CYBER LAWS IN INDIA</button> <button onclick="showpage('')"></button> 
        <br><hr><br>
-       <button onclick="showpage('phishing')" >LEARN <br> ABOUT <br>PHISHING</button> <button onclick="showpage('')">LAERN<BR>ABOUT<BR>SOMETHING</button>
+       <button onclick="showpage('cybercrime')" >LEARN <br> ABOUT <br>CYBER CRIMES</button> <button onclick="showpage('')">LAERN<BR>ABOUT<BR>SOMETHING</button>
        <br><br><br><hr><br><br>
        
        <h3><B>MADE BY<BR>HARDIK AWANA <BR> CLASS-8C </B></h3>
        <BR><BR><BR>
+       <BR><BR><BR>
       
       </DIV>
-
+<div id="cybercrime" class="page"> 
+  <H1>CYBER CRIMES</H1>
+  <BR><BR><BR>
+  <HR>
+  <BR>
+  <BUTTON onclick="showpage('phishing')"> PHISHING</BUTTON> 
+  <BR> <BR>
+   <BUTTON onclick="showpage('malware')"> malware</BUTTON>  
+  <br><br>
+    <BUTTON onclick="showpage('bully')"> Cyber Stalking/Bullying</BUTTON> 
+  <br><br><br>
+</div>
 <div id="cyberlaws" class="page"> 
 <h1><B>CYBER LAWS IN INDIA</B></h1>
   <BR><BR><BR><HR><BR><BR>
@@ -125,6 +137,41 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
   <br><br><br><br><br>
 </div>
 <div id="phishing" class="page">
+  <h1><b>Phishing</b></h1>
+
+<p>Phishing is a cyber attack where hackers try to trick people into sharing personal information like:</p>
+<ul>
+<li>Passwords</li>
+
+<li>Bank details</li>
+
+<li>OTPs</li>
+
+<li>Credit / debit card numbers</li>
+</ul>
+<br><BR>
+<p>They usually pretend to be trusted companies such as banks, schools, or social media platforms.
+</p>
+<br><br><hr><br><br>
+<h2> How to Protect Yourself from Phishing </h2>
+<br><br>
+<p> Never click unknown links </p>
+<br><br>
+<p> Do not share OTP or passwords </p>
+<br><br>
+<p> Check the sender’s email carefully </p>
+<br><br>
+<p> Use strong passwords </p>
+<br><br>
+<p> Report suspicious messages </p>
+<br><br><br>
+<br><br><br>
+<br><br>
+</div>
+<div id="malware" class="page">
+  
+</div>
+<div id="bully" class="page">
   
 </div>
      <SCRIPT>
