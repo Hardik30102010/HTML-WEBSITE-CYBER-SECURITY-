@@ -71,7 +71,9 @@ transform: rotateY(360deg);
     transition: 5s;
 }
     </STYLE>
+    
   </HEAD>
+  
    <BODY>
      <DIV id="home" class="page active">
        <H1> <B>WELCOME</B></H1>
@@ -100,6 +102,7 @@ transform: rotateY(360deg);
     <BUTTON onclick="showpage('bully')"> Cyber Stalking/Bullying</BUTTON> 
   <br><br><br>
 </div>
+
 <div id="cyberlaws" class="page"> 
 <h1><B>CYBER LAWS IN INDIA</B></h1>
   <BR><BR><BR><HR><BR><BR>
@@ -136,6 +139,7 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
 </p>
   <br><br><br><br><br>
 </div>
+
 <div id="phishing" class="page">
   <h1><b>Phishing</b></h1>
 
@@ -169,7 +173,28 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
 <br><br>
 </div>
 <div id="malware" class="page">
-  
+  <H1><B>MALWARE </B></H1>
+  <br><br><br>
+  <p>Malware, <b> (short for "malicious software") </b> refers to any intrusive code or program intentionally designed to damage, disrupt, or gain unauthorized access to a computer system, network, or data. </p>
+  <br><br><br>
+  <hr>
+  <br><br>
+ <h2><b>Core Malware Types</b></h2>
+<br><br>
+  <ul>
+  <li> <b>Ransomware:</b> Encrypts files and demands a ransom payment for the decryption key. Modern "multi-extortion" strains also threaten to leak stolen data if demands aren't met.</li>
+    
+<li> <b>Viruses:</b> Malicious code that attaches to legitimate programs and requires human action (like opening a file) to execute and spread.</li>
+
+<li> <b>Worms: </b>Standalone programs that self-replicate and spread automatically across networks without any human intervention.</li>
+
+<li> <b>Trojans:</b> Disguise themselves as legitimate software to trick users into installing them, often creating "backdoors" for further attacks.</li>
+
+<li> <b>Spyware:</b> Secretly monitors user activity to steal sensitive data like passwords, credit card numbers, and browsing habits.</li>
+
+<li> <b>Adware:</b> Automatically displays or downloads unwanted advertisements, often tracking user behavior to serve targeted (and sometimes malicious) ads. </li>
+  </ul>
+  <br><br><br>
 </div>
 <div id="bully" class="page">
   
