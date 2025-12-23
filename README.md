@@ -1,5 +1,3 @@
-<!---HTML-WEBSITE-CYBER-SECURITY--->
-
 <HTML>
   <HEAD>
     <TITLE> CYBER SECURITY WEBSITE CLASS 8C CSET </TITLE>
@@ -84,14 +82,38 @@ transform: rotateY(360deg);
          <br><br><br><br>
        <button onclick="showpage('cyberlaws')">LEARN<br>ABOUT<br>CYBER LAWS IN INDIA</button> <button onclick="showpage('tips')"> SAFETY TIPS<BR>AGAINST<BR>CYBERCRIMES</button> 
        <br><hr><br>
-       <button onclick="showpage('cybercrime')" >LEARN <br> ABOUT <br>CYBER CRIMES</button> <button onclick="showpage('')">LAERN<BR>ABOUT<BR>SOMETHING</button>
+       <button onclick="showpage('cybercrime')" >LEARN <br> ABOUT <br>CYBER CRIMES</button> <button onclick="showpage('quiz')"> SHORT<BR>QUIZ<BR><BR></button>
        <br><br><br><hr><br><br>
        
        <h3><B>MADE BY<BR>HARDIK AWANA <BR> CLASS-8C </B></h3>
        <BR><BR><BR>
        <BR><BR><BR>
-      
+      <br><br><br>
       </DIV>
+ <div id="tips" class="page">
+   <H1><b>SAFETY TIPS AGAINST CYBERCRIME</b></H1>
+   <BR><BR><HR>
+   <BR><BR>
+  <OL>
+ <li><B>Secure Logins: </B>Use unique passwords for every account and always enable <B>Two-Factor Authentication (2FA)</B> on email, social media, and college portals.</li>
+<li>
+<B>Public Wi-Fi/Charging:</B> Avoid using public Wi-Fi or USB charging ports in cafes or metros for sensitive tasks; they are common targets for data theft.
+</li>
+   <li>
+<B>QR Code Rule:</B> Never scan a QR code to receive money. Scammers use this trick to <B>drain your account</B> instead of paying you.
+   </li>
+<li><B>Social Privacy: </B>Set profiles to "Private" and never share your location, phone number, or school name publicly to avoid cyberstalking.
+</li>
+    <li>
+ Emergency Contact: If you are scammed or harassed, immediately call the National Cyber Crime Helpline at 1930 or report it at <a herf="https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" >cybercrime.gov.in.</a>
+    </li>
+  </OL>
+   <BR>
+   <br><br><hr><br>
+     <button onclick="showpage('home')"> HOME PAGE</button>
+   <br><br><br>
+   
+ </div>  
 <div id="cybercrime" class="page"> 
   <H1>CYBER CRIMES</H1>
   <BR><BR><BR>
@@ -246,11 +268,33 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
 <br><br>
   <br><br>
 </div>
+<div id="quiz" class="page"> 
+  <H1><B>QUIZ</B></H1>
+  <BR><BR><HR><BR>
+  <H3><B>Q) Is it safe to share OTPs with strangers?</B></H3>
+  <br><br><br>
+     <button onclick="QC()"> YES</button>  
+  <BR><BR>
+  <button onclick="QW()"> NO </button>
+  <br><br>
+  <p id="A">.</p>
+  <hr><br>
+  <button onclick="showpage('home')"> HOME PAGE</button>
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+</div>
      <SCRIPT>
      function showpage(id) {
     document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
     document.getElementById(id).classList.add('active');
   }
+       function QC(){
+         document.getElementById("A").innerHTML="<B>CORRECT ANSWER!<B> You should never share OTPs with strangers.<BR> Click on the  <b>HOME PAGE</b> button";
+         }
+       function QW(){
+         document.getElementById("A").innerHTML="<B>WRONG ANSWER<B> <BR> <BUTTON onclick=showpage(quiz)>TRY AGAIN</BUTTON>";
+         } 
      </SCRIPT>
    </BODY>
 </HTML>
