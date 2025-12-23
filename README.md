@@ -1,4 +1,4 @@
-<!---HTML-WEBSITE-CYBER-SECURITY-Complete this--->
+<!---HTML-WEBSITE-CYBER-SECURITY--->
 
 <HTML>
   <HEAD>
@@ -76,11 +76,13 @@ transform: rotateY(360deg);
   
    <BODY>
      <DIV id="home" class="page active">
-       <H1> <B>WELCOME</B></H1>
+       <H1> <B>CYBERSECURITY WEBSITE</B></H1>
+       <br><br><br>
+        <hr>
        <br><br><br>
        <p>cybersecurity is the practice of protecting your digital life—such as your computers, smartphones, and online accounts—from hackers who want to steal, change, or break your information. </p>
          <br><br><br><br>
-       <button onclick="showpage('cyberlaws')">LEARN<br>ABOUT<br>CYBER LAWS IN INDIA</button> <button onclick="showpage('')"></button> 
+       <button onclick="showpage('cyberlaws')">LEARN<br>ABOUT<br>CYBER LAWS IN INDIA</button> <button onclick="showpage('tips')"> SAFETY TIPS<BR>AGAINST<BR>CYBERCRIMES</button> 
        <br><hr><br>
        <button onclick="showpage('cybercrime')" >LEARN <br> ABOUT <br>CYBER CRIMES</button> <button onclick="showpage('')">LAERN<BR>ABOUT<BR>SOMETHING</button>
        <br><br><br><hr><br><br>
@@ -100,7 +102,10 @@ transform: rotateY(360deg);
    <BUTTON onclick="showpage('malware')"> malware</BUTTON>  
   <br><br>
     <BUTTON onclick="showpage('bully')"> Cyber Stalking/Bullying</BUTTON> 
-  <br><br><br>
+  <br><br>
+  <button onclick="showpage('home')"> HOME PAGE</button>
+  <br> 
+  <BR><BR><BR>
 </div>
 
 <div id="cyberlaws" class="page"> 
@@ -137,12 +142,17 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
   <br><br><br>
 <b>Data Protection: Addresses data security and breach notification.</b>
 </p>
-  <br><br><br><br><br>
+  <br>
+  <br>
+  <button onclick="showpage('home')"> HOME PAGE</button>
+  <br><br><br><br>
 </div>
 
 <div id="phishing" class="page">
   <h1><b>Phishing</b></h1>
-
+<br><br>
+  <hr>
+  <br><br>
 <p>Phishing is a cyber attack where hackers try to trick people into sharing personal information like:</p>
 <ul>
 <li>Passwords</li>
@@ -169,12 +179,19 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
 <br><br>
 <p> Report suspicious messages </p>
 <br><br><br>
-<br><br><br>
+<br><br>
+<hr>
+<br>
+<button onclick="showpage('home')"> HOME PAGE</button>
+<br>
+<button onclick="showpage('cybercrime')"> BACK</button>
 <br><br>
 </div>
 <div id="malware" class="page">
   <H1><B>MALWARE </B></H1>
-  <br><br><br>
+  <br><br>
+  <hr>
+  <br><br>
   <p>Malware, <b> (short for "malicious software") </b> refers to any intrusive code or program intentionally designed to damage, disrupt, or gain unauthorized access to a computer system, network, or data. </p>
   <br><br><br>
   <hr>
@@ -194,10 +211,40 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
 
 <li> <b>Adware:</b> Automatically displays or downloads unwanted advertisements, often tracking user behavior to serve targeted (and sometimes malicious) ads. </li>
   </ul>
-  <br><br><br>
+  <br>
+  <hr>
+  <br>
+  <button onclick="showpage('home')"> HOME PAGE</button>
+<br>
+<button onclick="showpage('cybercrime')"> BACK</button>
+<br><br>
+  <br>
+  
 </div>
 <div id="bully" class="page">
-  
+  <h1><b>CYBERBULLYING<br>AND<br>CYBERSTALKING</b></h1>
+  <br> <br>
+  <hr> 
+ <br><br>
+  <p><b>Cyberbullying </b> and <b>cyberstalking </b> are forms of online harassment that involve using digital platforms to target, intimidate, or harm individuals. </p>
+    <br> <br><hr><br><br>
+ <h2> <b>Key Differences</b></h2>
+  <br>
+  <p>
+<b>Cyberbullying: </b>Repeatedly sending or sharing harmful, false, or mean content to <B>embarrass or humiliate a person.</B> It is most common among minors and often revolves around emotional manipulation.
+  </p>
+  <br>
+  <p>
+<b>Cyberstalking: </b>A pattern of persistent, unwanted online attention that induces <B>fear or concern for personal safety</B>. It frequently involves surveillance, tracking location, or threats. 
+  </p>
+  <br><br>
+  <hr>
+  <br>
+  <button onclick="showpage('home')"> HOME PAGE</button>
+<br>
+<button onclick="showpage('cybercrime')"> BACK</button>
+<br><br>
+  <br><br>
 </div>
      <SCRIPT>
      function showpage(id) {
