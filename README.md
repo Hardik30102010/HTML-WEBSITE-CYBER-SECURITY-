@@ -273,9 +273,9 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
   <BR><BR><HR><BR>
   <H3><B>Q) Is it safe to share OTPs with strangers?</B></H3>
   <br><br><br>
-     <button onclick="QC()"> YES</button>  
+     <button onclick="QW()"> YES</button>  
   <BR><BR>
-  <button onclick="QW()"> NO </button>
+  <button onclick="QC()"> NO </button>
   <br><br>
   <p id="A">.</p>
   <hr><br>
@@ -293,7 +293,7 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
          document.getElementById("A").innerHTML="<B>CORRECT ANSWER!<B> You should never share OTPs with strangers.<BR> Click on the  <b>HOME PAGE</b> button";
          }
        function QW(){
-         document.getElementById("A").innerHTML="<B>WRONG ANSWER<B> <BR> <BUTTON onclick=showpage(quiz)>TRY AGAIN</BUTTON>";
+         document.getElementById("A").innerHTML="<B>WRONG ANSWER<B> <BR> <BUTTON onclick=showpage('quiz')>TRY AGAIN</BUTTON>";
          } 
      </SCRIPT>
    </BODY>
