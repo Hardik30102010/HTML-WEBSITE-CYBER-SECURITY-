@@ -16,7 +16,9 @@
       min-height: 100vh;
       padding-top: 50px;
     }
-    .active { display: block; }
+    .active { 
+      display: block;
+    }
     button { 
       margin: 10px; 
       padding: 10px 20px; 
@@ -80,7 +82,7 @@ transform: rotateY(360deg);
        <br><br><br>
        <p>cybersecurity is the practice of protecting your digital life—such as your computers, smartphones, and online accounts—from hackers who want to steal, change, or break your information. </p>
          <br><br><br><br>
-       <button onclick="showpage('cyberlaws')">LEARN<br>ABOUT<br>CYBER LAWS IN INDIA</button> <button onclick="showpage('tips')"> SAFETY TIPS<BR>AGAINST<BR>CYBERCRIMES</button> 
+       <button onclick="showpage('cyberlaws')">LEARN<br>ABOUT<br>CYBER LAWS <br> IN INDIA</button> <button onclick="showpage('tips')"> SAFETY TIPS<BR>AGAINST<BR>CYBERCRIMES</button> 
        <br><hr><br>
        <button onclick="showpage('cybercrime')" >LEARN <br> ABOUT <br>CYBER CRIMES</button> <button onclick="showpage('quiz')"> SHORT<BR>QUIZ<BR><BR></button>
        <br><br><br><hr><br><br>
@@ -105,7 +107,7 @@ transform: rotateY(360deg);
 <li><B>Social Privacy: </B>Set profiles to "Private" and never share your location, phone number, or school name publicly to avoid cyberstalking.
 </li>
     <li>
- Emergency Contact: If you are scammed or harassed, immediately call the National Cyber Crime Helpline at 1930 or report it at <a herf="https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" >cybercrime.gov.in.</a>
+ Emergency Contact: If you are scammed or harassed, immediately call the National Cyber Crime Helpline at 1930 or report it at <a herf="https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" >Cybercrime Report Page</a>
     </li>
   </OL>
    <BR>
@@ -125,6 +127,7 @@ transform: rotateY(360deg);
   <br><br>
     <BUTTON onclick="showpage('bully')"> Cyber Stalking/Bullying</BUTTON> 
   <br><br>
+      <hr><br>
   <button onclick="showpage('home')"> HOME PAGE</button>
   <br> 
   <BR><BR><BR>
@@ -277,7 +280,7 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
   <BR><BR>
   <button onclick="QC()"> NO </button>
   <br><br>
-  <p id="A">.</p>
+  <p id="A"> </p>
   <hr><br>
   <button onclick="showpage('home')"> HOME PAGE</button>
   <br><br><br>
@@ -293,8 +296,13 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
          document.getElementById("A").innerHTML="<B>CORRECT ANSWER!<B> You should never share OTPs with strangers.<BR> Click on the  <b>HOME PAGE</b> button";
          }
        function QW(){
-         document.getElementById("A").innerHTML="<B>WRONG ANSWER<B> <BR> <BUTTON onclick=showpage('quiz')>TRY AGAIN</BUTTON>";
+         document.getElementById("A").innerHTML="<B>WRONG ANSWER<B> <BR> <BUTTON onclick='ct()'>TRY AGAIN</BUTTON>";
          } 
+       function ct(){
+         document.getElementById("A").innerHTML=" ";
+       }
      </SCRIPT>
    </BODY>
-</HTML>
+</HTML>    
+      
+  
