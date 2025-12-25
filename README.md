@@ -169,6 +169,8 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
 </p>
   <br>
   <br>
+  <hr>
+  <br>
   <button onclick="showpage('home')"> HOME PAGE</button>
   <br><br><br><br>
 </div>
