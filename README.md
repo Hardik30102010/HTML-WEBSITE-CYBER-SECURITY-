@@ -4,7 +4,7 @@
     <STYLE>
       body{
         background-color: #1a1a2e;
-        text-allngment: center;
+        text-aling: center;
         color: #ffffff;
         font-family: Arial, sans-serif;
       
@@ -50,16 +50,17 @@
       border-top: 2px solid #fff; 
       width: 100%; 
     }
-    A:LINK, A:VISITED {
-     COLOR: #0000FF
-    TEXT-DECORATION: UNDERLINE;
-    FONT–WEIGHT: normal;
+    a:link, a:visited {
+     color: #0000FF
+    text-decoration: underline;
+    font–weight: normal;
 }
 
-A:HOVER, A:ACTIVE {
-  COLOR: #cc0cf7
-  FONT–WEIGHT: BOLD;
+a:hover, a:active {
+  color: #cc0cf7
+  font–weight: bold;
   }
+  
   h3:hover{
 
 transform: rotate(360deg); 
@@ -107,7 +108,7 @@ transform: rotateY(360deg);
 <li><B>Social Privacy: </B>Set profiles to "Private" and never share your location, phone number, or school name publicly to avoid cyberstalking.
 </li>
     <li>
- Emergency Contact: If you are scammed or harassed, immediately call the National Cyber Crime Helpline at 1930 or report it at <a herf="https://cybercrime.gov.in/" >Cybercrime Report Page</a>
+ Emergency Contact: If you are scammed or harassed, immediately call the National Cyber Crime Helpline at 1930 or report it at <a herf="https://cybercrime.gov.in/" target="_blank">Cybercrime Report Page</a>
     </li>
   </OL>
    <BR>
