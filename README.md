@@ -114,9 +114,10 @@ transform: rotateY(360deg);
    <BR>
    <br><br><hr><br>
      <button onclick="showpage('home')"> HOME PAGE</button>
-   <br><br><br>
-   
- </div>  
+   <br>
+   <br>
+   <br>
+   </div>  
 <div id="cybercrime" class="page"> 
   <H1>CYBER CRIMES</H1>
   <BR><BR><BR>
