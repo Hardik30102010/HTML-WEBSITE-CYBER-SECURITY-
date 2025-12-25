@@ -108,7 +108,7 @@ transform: rotateY(360deg);
 <li><B>Social Privacy: </B>Set profiles to "Private" and never share your location, phone number, or school name publicly to avoid cyberstalking.
 </li>
     <li>
- Emergency Contact: If you are scammed or harassed, immediately call the National Cyber Crime Helpline at 1930 or report it at <a herf="https://cybercrime.gov.in/" target="_blank">Cybercrime Report Page</a>
+ Emergency Contact: If you are scammed or harassed, immediately call the National Cyber Crime Helpline at 1930 or report it at <a href="https://cybercrime.gov.in/" target="_blank">Cybercrime Report Page</a>
     </li>
   </OL>
    <BR>
