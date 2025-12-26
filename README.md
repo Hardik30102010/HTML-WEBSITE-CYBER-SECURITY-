@@ -157,6 +157,7 @@ transform: rotateY(360deg);
   <br>
   Validates electronic records, digital signatures, and e-governance. 
   <br>
+  <br>
 <b>Cyber Crimes & Penalties:-</b>
   <br><br>
   <ul>
@@ -273,7 +274,8 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
 <br>
 <button onclick="showpage('cybercrime')"> BACK</button>
 <br><br>
-  <br><br>
+  <br>
+  <br>
 </div>
 <div id="quiz" class="page"> 
   <H1><B>QUIZ</B></H1>
