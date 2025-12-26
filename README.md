@@ -30,17 +30,7 @@
       color: white; 
       transition: transform 0.2s; 
     }
-      button { 
-       margin: 10px; 
-       padding: 10px 20px; 
-       font-size: 18px; 
-       cursor: pointer; 
-       border-radius: 10px; 
-       border: solid 2px #8800ff ; 
-       background-color: #4b3ca7; 
-       color: white; 
-       transition: transform 0.2s; 
-    }
+      
     button:hover { 
        border:solid 3px #ff00ee;
        transform: scale(1.1);
@@ -54,6 +44,7 @@
      color: #0000FF
     text-decoration: underline;
     font–weight: normal;
+    cursor: pointer;
 }
 
 a:hover, a:active {
@@ -64,7 +55,7 @@ a:hover, a:active {
   h3:hover{
 
 transform: rotate(360deg); 
-    transition: 5s;
+    transition: 3s;
 }
 h1:hover{
 
@@ -78,16 +69,22 @@ transform: rotateY(360deg);
    <BODY>
      <DIV id="home" class="page active">
        <H1> <B>CYBERSECURITY WEBSITE</B></H1>
-       <br><br><br>
+       <br><br>
+       <br>
         <hr>
-       <br><br><br>
+       <br><br>
+       <br>
        <p>cybersecurity is the practice of protecting your digital life—such as your computers, smartphones, and online accounts—from hackers who want to steal, change, or break your information. </p>
-         <br><br><br><br>
+         <br><br>
+       <br><br>
+       <hr>
+       <br><br><br>
        <button onclick="showpage('cyberlaws')">LEARN<br>ABOUT<br>CYBER LAWS <br> IN INDIA</button> <button onclick="showpage('tips')"> SAFETY TIPS<BR>AGAINST<BR>CYBERCRIMES</button> 
-       <br><hr><br>
+       <br><br>
+       <br>
        <button onclick="showpage('cybercrime')" >LEARN <br> ABOUT <br>CYBER CRIMES</button> <button onclick="showpage('quiz')"> SHORT<BR>QUIZ<BR><BR></button>
        <br><br><br><hr><br><br>
-       
+       <br><br><br>
        <h3><B>MADE BY<BR>HARDIK AWANA <BR> CLASS-8C </B></h3>
        <BR><BR><BR>
        <BR><BR><BR>
@@ -95,7 +92,8 @@ transform: rotateY(360deg);
       </DIV>
  <div id="tips" class="page">
    <H1><b>SAFETY TIPS AGAINST CYBERCRIME</b></H1>
-   <BR><BR><HR>
+   <BR><BR>
+   <HR>
    <BR><BR>
   <OL>
  <li><B>Secure Logins: </B>Use unique passwords for every account and always enable <B>Two-Factor Authentication (2FA)</B> on email, social media, and college portals.</li>
@@ -124,7 +122,7 @@ transform: rotateY(360deg);
   <HR>
   <BR>
   <BUTTON onclick="showpage('phishing')"> PHISHING</BUTTON> 
-  <BR> <BR>
+  <BR><BR>
    <BUTTON onclick="showpage('malware')"> malware</BUTTON>  
   <br><br>
     <BUTTON onclick="showpage('bully')"> Cyber Stalking/Bullying</BUTTON> 
@@ -249,11 +247,12 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
 <button onclick="showpage('cybercrime')"> BACK</button>
 <br><br>
   <br>
-  
+  <br>
 </div>
 <div id="bully" class="page">
   <h1><b>CYBERBULLYING<br>AND<br>CYBERSTALKING</b></h1>
-  <br> <br>
+  <br> 
+  <br>
   <hr> 
  <br><br>
   <p><b>Cyberbullying </b> and <b>cyberstalking </b> are forms of online harassment that involve using digital platforms to target, intimidate, or harm individuals. </p>
