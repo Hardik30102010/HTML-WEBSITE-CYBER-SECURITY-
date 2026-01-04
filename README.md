@@ -4,7 +4,7 @@
     <STYLE>
       body{
         background-color: #1a1a2e;
-        text-aling: center;
+        text-align: center;
         color: #ffffff;
         font-family: Arial, sans-serif;
       
@@ -41,15 +41,15 @@
        width: 100%; 
     }
       a:link, a:visited {
-       color: #0000ff
+       color: #0000ff;
        text-decoration: underline;
-       font–weight: normal;
+       font-weight: normal;
        cursor: pointer;
    }
 
      a:hover, a:active {
-      color: #cc0cf7
-      font–weight: bold;
+      color: #cc0cf7:
+      font-weight: bold;
    }
   
      h3:hover{
@@ -80,7 +80,7 @@
        <button onclick="showpage('cyberlaws')">LEARN<br>ABOUT<br>CYBER LAWS <br> IN INDIA</button>   <button onclick="showpage('tips')">SAFETY <br>TIPS<BR>AGAINST<BR>CYBERCRIMES<br></button> 
        <br><br>
        <br>
-       <button onclick="showpage('cybercrime')" >LEARN<br>ABOUT<br>CYBERCRIMES<br><br> </button>  <button onclick="showpage('quiz')">  <br>SHORT<BR>QUIZ<BR> <BR></button>
+   <button onclick="showpage('cybercrime')" >LEARN<br>ABOUT<br>CYBERCRIMES<br><br> </button>  <button onclick="showpage('quiz')">  <br>SHORT<BR>QUIZ<BR> <BR></button>
        <br><br><br><hr><br><br>
        <br><br><br>
        <h3><B>MADE BY<BR>HARDIK AWANA <BR>CLASS-8 C<BR>
