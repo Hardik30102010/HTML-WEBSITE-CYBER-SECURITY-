@@ -10,16 +10,16 @@
       
     
       }
-         .page { 
-      display: none;
-      text-align: center;
-      min-height: 100vh;
-      padding-top: 50px;
+     .page { 
+       display: none;
+       text-align: center;
+       min-height: 100vh;
+       padding-top: 50px;
     }
-    .active { 
-      display: block;
+     .active { 
+       display: block;
     }
-    button { 
+     button { 
       margin: 10px; 
       padding: 10px 20px; 
       font-size: 18px; 
@@ -31,37 +31,37 @@
       transition: transform 0.2s; 
     }
       
-    button:hover { 
+      button:hover { 
        border:solid 3px #ff00ee;
        transform: scale(1.1);
     }
-    hr {
-      border: none; 
-      border-top: 2px solid #fff; 
-      width: 100%; 
+      hr {
+       border: none; 
+       border-top: 2px solid #fff; 
+       width: 100%; 
     }
-    a:link, a:visited {
-     color: #0000ff
-    text-decoration: underline;
-    font–weight: normal;
-    cursor: pointer;
-}
+      a:link, a:visited {
+       color: #0000ff
+       text-decoration: underline;
+       font–weight: normal;
+       cursor: pointer;
+   }
 
-a:hover, a:active {
-  color: #cc0cf7
-  font–weight: bold;
-  }
+     a:hover, a:active {
+      color: #cc0cf7
+      font–weight: bold;
+   }
   
-  h3:hover{
+     h3:hover{
 
-transform: rotate(360deg); 
-    transition: 3s;
-}
-h1:hover{
+      transform: rotate(360deg); 
+      transition: 3s;
+   }
+     h1:hover{
 
-transform: rotateY(360deg); 
-    transition: 5s;
-}
+      transform: rotateY(360deg); 
+      transition: 5s;
+   }
     </STYLE>
   </HEAD>
   <BODY>
@@ -77,13 +77,13 @@ transform: rotateY(360deg);
        <br><br>
        <hr>
        <br><br><br>
-       <button onclick="showpage('cyberlaws')">LEARN<br>ABOUT<br>CYBER LAWS <br> IN INDIA</button>  <button onclick="showpage('tips')"><br>SAFETY TIPS<BR>AGAINST<BR>CYBERCRIMES<br></button> 
+       <button onclick="showpage('cyberlaws')">LEARN<br>ABOUT<br>CYBER LAWS <br> IN INDIA</button>   <button onclick="showpage('tips')">SAFETY <br>TIPS<BR>AGAINST<BR>CYBERCRIMES<br></button> 
        <br><br>
        <br>
-       <button onclick="showpage('cybercrime')" ><br>LEARN<br>ABOUT<br>CYBERCRIMES<br> </button>  <button onclick="showpage('quiz')">  <br>SHORT<BR>QUIZ<BR> <BR></button>
+       <button onclick="showpage('cybercrime')" >LEARN<br>ABOUT<br>CYBERCRIMES<br><br> </button>  <button onclick="showpage('quiz')">  <br>SHORT<BR>QUIZ<BR> <BR></button>
        <br><br><br><hr><br><br>
        <br><br><br>
-       <h3><B>MADE BY<BR>HARDIK AWANA <BR>CLASS-8 C<BR><br> 
+       <h3><B>MADE BY<BR>HARDIK AWANA <BR>CLASS-8 C<BR>
          CSET </B></h3>
        <BR><BR><BR>
        <BR><BR><BR>
