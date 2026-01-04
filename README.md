@@ -280,7 +280,7 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
   <BR><BR><HR><BR>
   <H3><B>Q) Is it safe to share OTPs with strangers?</B></H3>
   <br><br><br>
-     <button onclick="QW()"> YES</button>  
+     <button onclick="QW()"> YES </button>  
   <BR><BR>
   <button onclick="QC()"> NO </button>
   <br><br>
@@ -291,8 +291,8 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
   <br><br>
   <br>
   <br>
-  <br>
-  <br>
+    <br>
+     <br>
   <br>
   <br>
 </div>
