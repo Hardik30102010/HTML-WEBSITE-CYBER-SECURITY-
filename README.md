@@ -41,7 +41,7 @@
       width: 100%; 
     }
     a:link, a:visited {
-     color: #0000FF
+     color: #0000ff
     text-decoration: underline;
     font–weight: normal;
     cursor: pointer;
@@ -77,13 +77,14 @@ transform: rotateY(360deg);
        <br><br>
        <hr>
        <br><br><br>
-       <button onclick="showpage('cyberlaws')">LEARN<br>ABOUT<br>CYBER LAWS <br> IN INDIA</button> <button onclick="showpage('tips')">SAFETY TIPS<BR>AGAINST<BR>CYBERCRIMES<br></button> 
+       <button onclick="showpage('cyberlaws')">LEARN<br>ABOUT<br>CYBER LAWS <br> IN INDIA</button>  <button onclick="showpage('tips')"><br>SAFETY TIPS<BR>AGAINST<BR>CYBERCRIMES<br></button> 
        <br><br>
        <br>
-       <button onclick="showpage('cybercrime')" >LEARN <br> ABOUT <br>CYBER CRIMES<br> </button> <button onclick="showpage('quiz')">  <br>SHORT<BR>QUIZ<BR> <BR></button>
+       <button onclick="showpage('cybercrime')" ><br>LEARN<br>ABOUT<br>CYBERCRIMES<br> </button>  <button onclick="showpage('quiz')">  <br>SHORT<BR>QUIZ<BR> <BR></button>
        <br><br><br><hr><br><br>
        <br><br><br>
-       <h3><B>MADE BY<BR>HARDIK AWANA <BR> CLASS-8 C <BR> CSET </B></h3>
+       <h3><B>MADE BY<BR>HARDIK AWANA <BR>CLASS-8 C<BR><br> 
+         CSET </B></h3>
        <BR><BR><BR>
        <BR><BR><BR>
       <br><br><br>
@@ -104,7 +105,7 @@ transform: rotateY(360deg);
 <li><B>Social Privacy: </B>Set profiles to "Private" and never share your location, phone number, or school name publicly to avoid cyberstalking.
 </li>
     <li>
- Emergency Contact: If you are scammed or harassed, immediately call the National Cyber Crime Helpline at 1930 or report it at <a href="https://cybercrime.gov.in/" target="_blank">Cybercrime Report Page</a>
+<b>Emergency Contact:</b> If you are scammed or harassed, immediately call the National Cyber Crime Helpline at <b> 1930</b> or report it at <a href="https://cybercrime.gov.in/" target="_blank">National Cybercrime Report Page</a>
     </li>
   </OL>
    <BR>
