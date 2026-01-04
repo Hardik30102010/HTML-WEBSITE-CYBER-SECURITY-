@@ -68,7 +68,7 @@ transform: rotateY(360deg);
   
    <BODY>
      <DIV id="home" class="page active">
-       <H1> <B>CYBERSECURITY WEBSITE</B></H1>
+       <H1><B>CYBERSECURITY WEBSITE</B></H1>
        <br><br>
        <br>
         <hr>
