@@ -79,10 +79,10 @@ transform: rotateY(360deg);
        <br><br>
        <hr>
        <br><br><br>
-       <button onclick="showpage('cyberlaws')">LEARN<br>ABOUT<br>CYBER LAWS <br> IN INDIA</button> <button onclick="showpage('tips')"> SAFETY TIPS<BR>AGAINST<BR>CYBERCRIMES</button> 
+       <button onclick="showpage('cyberlaws')">LEARN<br>ABOUT<br>CYBER LAWS <br> IN INDIA</button> <button onclick="showpage('tips')">SAFETY TIPS<BR>AGAINST<BR>CYBERCRIMES<br></button> 
        <br><br>
        <br>
-       <button onclick="showpage('cybercrime')" >LEARN <br> ABOUT <br>CYBER CRIMES</button> <button onclick="showpage('quiz')"> SHORT<BR>QUIZ<BR><BR></button>
+       <button onclick="showpage('cybercrime')" >LEARN <br> ABOUT <br>CYBER CRIMES<br> </button> <button onclick="showpage('quiz')">  <br>SHORT<BR>QUIZ<BR> <BR></button>
        <br><br><br><hr><br><br>
        <br><br><br>
        <h3><B>MADE BY<BR>HARDIK AWANA <BR> CLASS-8C </B></h3>
@@ -240,7 +240,7 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
 <li> <b>Adware:</b> Automatically displays or downloads unwanted advertisements, often tracking user behavior to serve targeted (and sometimes malicious) ads. </li>
   </ul>
   <br>
-  <hr>
+   <hr>
   <br>
   <button onclick="showpage('home')"> HOME PAGE</button>
 <br>
