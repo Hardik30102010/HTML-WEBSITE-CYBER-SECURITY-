@@ -25,7 +25,7 @@
       font-size: 18px; 
       cursor: pointer; 
       border-radius: 10px; 
-      border: solid 2px #8800ff ; 
+      border: solid 2px #8800ff; 
       background-color: #4b3ca7; 
       color: white; 
       transition: transform 0.2s; 
@@ -48,7 +48,7 @@
    }
 
      a:hover, a:active {
-      color: #cc0cf7:
+      color: #cc0cf7;
       font-weight: bold;
    }
   
