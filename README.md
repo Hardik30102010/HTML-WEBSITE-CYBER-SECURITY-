@@ -72,7 +72,7 @@
         <hr>
        <br><br>
        <br>
-       <p>cybersecurity is the practice of protecting your digital life—such as your computers, smartphones, and online accounts—from hackers who want to steal, change, or break your information. </p>
+       <p><b>Cybersecurity </b>is the practice of protecting your <b>digital life</b>—such as your computers, smartphones, and online accounts—from hackers who want to <b>steal, change,</b> or <b>break your information.</b> </p>
          <br><br>
        <br><br>
        <hr>
