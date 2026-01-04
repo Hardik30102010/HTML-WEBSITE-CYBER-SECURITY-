@@ -122,7 +122,7 @@
   <BR>
   <BUTTON onclick="showpage('phishing')"> PHISHING</BUTTON> 
   <BR><BR>
-   <BUTTON onclick="showpage('malware')"> malware</BUTTON>  
+   <BUTTON onclick="showpage('malware')"> MALWARE</BUTTON>  
   <br><br>
     <BUTTON onclick="showpage('bully')"> Cyber Stalking/Bullying</BUTTON> 
   <br><br>
