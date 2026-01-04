@@ -63,10 +63,8 @@ transform: rotateY(360deg);
     transition: 5s;
 }
     </STYLE>
-    
   </HEAD>
-  
-   <BODY>
+  <BODY>
      <DIV id="home" class="page active">
        <H1><B>CYBERSECURITY WEBSITE</B></H1>
        <br><br>
@@ -85,7 +83,7 @@ transform: rotateY(360deg);
        <button onclick="showpage('cybercrime')" >LEARN <br> ABOUT <br>CYBER CRIMES<br> </button> <button onclick="showpage('quiz')">  <br>SHORT<BR>QUIZ<BR> <BR></button>
        <br><br><br><hr><br><br>
        <br><br><br>
-       <h3><B>MADE BY<BR>HARDIK AWANA <BR> CLASS-8C </B></h3>
+       <h3><B>MADE BY<BR>HARDIK AWANA <BR> CLASS-8 C <BR> CSET </B></h3>
        <BR><BR><BR>
        <BR><BR><BR>
       <br><br><br>
@@ -288,9 +286,14 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
   <p id="A"> </p>
   <hr><br>
   <button onclick="showpage('home')"> HOME PAGE</button>
-  <br><br><br>
-  <br><br><br>
-  <br><br><br>
+  <br>
+  <br><br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 </div>
      <SCRIPT>
      function showpage(id) {
