@@ -301,13 +301,13 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
     document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
     document.getElementById(id).classList.add('active');
   }
-       function QC(){
+     function QC(){
          document.getElementById("A").innerHTML="<B>CORRECT ANSWER!<B> You should never share OTPs with strangers.<BR> Click on the  <b>HOME PAGE</b> button";
          }
-       function QW(){
+     function QW(){
          document.getElementById("A").innerHTML="<B>WRONG ANSWER<B> <BR> <BUTTON onclick='ct()'>TRY AGAIN</BUTTON>";
          } 
-       function ct(){
+     function ct(){
          document.getElementById("A").innerHTML=" ";
        }
      </SCRIPT>
