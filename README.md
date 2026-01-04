@@ -120,11 +120,11 @@
   <BR><BR><BR>
   <HR>
   <BR>
-  <BUTTON onclick="showpage('phishing')"> PHISHING</BUTTON> 
+  <BUTTON onclick="showpage('phishing')"> PHISHING </BUTTON> 
   <BR><BR>
-   <BUTTON onclick="showpage('malware')"> MALWARE</BUTTON>  
+   <BUTTON onclick="showpage('malware')"> MALWARE </BUTTON>  
   <br><br>
-    <BUTTON onclick="showpage('bully')"> Cyber Stalking/Bullying</BUTTON> 
+    <BUTTON onclick="showpage('bully')"> CYBER STALKING/BULLYING </BUTTON> 
   <br><br>
       <hr><br>
   <button onclick="showpage('home')"> HOME PAGE</button>
