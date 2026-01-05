@@ -229,7 +229,7 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
 <br>
 <button onclick="showpage('home')"> HOME PAGE</button>
 <br>
-<button onclick="showpage('cybercrime')">   BACK   </button>
+<button onclick="showpage('cybercrime')">BACK</button>
 <br><br>
 </div>
 <div id="malware" class="page">
@@ -261,7 +261,7 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
   <br>
   <button onclick="showpage('home')"> HOME PAGE</button>
 <br>
-<button onclick="showpage('cybercrime')">   BACK  </button>
+<button onclick="showpage('cybercrime')">BACK</button>
 <br><br>
   <br>
   <br>
@@ -288,7 +288,7 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
   <br>
   <button onclick="showpage('home')"> HOME PAGE</button>
 <br>
-<button onclick="showpage('cybercrime')">.  BACK   </button>
+<button onclick="showpage('cybercrime')">BACK</button>
 <br><br>
   <br>
   <br><br>
