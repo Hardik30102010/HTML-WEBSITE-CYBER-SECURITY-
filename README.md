@@ -62,6 +62,19 @@
       transform: rotateY(360deg); 
       transition: 5s;
    }
+     .home-buttons {
+      display: flex;  
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      flex-wrap: wrap;
+  }
+
+    .home-buttons button {
+     width: 220px;
+     height: 130px;
+}
+
     </STYLE>
   </HEAD>
   <BODY>
@@ -77,11 +90,13 @@
        <br><br>
        <hr>
        <br><br><br>
-       <button onclick="showpage('cyberlaws')">LEARN<br>ABOUT<br>CYBER LAWS <br> IN INDIA</button>   <button onclick="showpage('tips')">SAFETY <br>TIPS<BR>AGAINST<BR>CYBERCRIMES<br></button> 
-       <br><br>
-       <br>
-   <button onclick="showpage('cybercrime')" >LEARN<br>ABOUT<br>CYBERCRIMES<br><br> </button>  <button onclick="showpage('quiz')">  <br>SHORT<BR>QUIZ<BR> <BR></button>
-       <br><br><br><hr><br><br>
+       <div class="home-buttons">
+  <button onclick="showpage('cyberlaws')">LEARN<br>ABOUT<br>CYBER LAWS<br>IN INDIA</button>
+  <button onclick="showpage('tips')">SAFETY<br>TIPS<br>AGAINST<br>CYBERCRIMES</button>
+  <button onclick="showpage('cybercrime')">LEARN<br>ABOUT<br>CYBERCRIMES</button>
+  <button onclick="showpage('quiz')">SHORT<br>QUIZ</button>
+</div>
+         <br><br><br><hr><br><br>
        <br><br><br>
        <h3><B>MADE BY<BR>HARDIK AWANA <BR>CLASS-8 C<BR>
          CSET </B></h3>
