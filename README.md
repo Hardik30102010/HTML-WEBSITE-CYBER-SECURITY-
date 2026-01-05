@@ -20,6 +20,7 @@
        display: block;
     }
      button { 
+      text-align: center;
       margin: 10px; 
       padding: 10px 20px; 
       font-size: 18px; 
@@ -62,12 +63,10 @@
       transform: rotateY(360deg); 
       transition: 5s;
    }
-     .home-buttons {
-      display: flex;  
-      justify-content: center;
+     .home-buttons { 
       align-items: center;
       gap: 30px;
-      flex-wrap: wrap;
+      
   }
 
     .home-buttons button {
@@ -79,7 +78,7 @@
   </HEAD>
   <BODY>
      <DIV id="home" class="page active">
-       <H1><B>CYBERSECURITY WEBSITE</B></H1>
+   <H1><B>CYBERSECURITY WEBSITE</B></H1>
        <br><br>
        <br>
         <hr>
@@ -93,11 +92,15 @@
        <div class="home-buttons">
   <button onclick="showpage('cyberlaws')">LEARN<br>ABOUT<br>CYBER LAWS<br>IN INDIA</button>
   <button onclick="showpage('tips')">SAFETY<br>TIPS<br>AGAINST<br>CYBERCRIMES</button>
+         <br>
+         <br>
   <button onclick="showpage('cybercrime')">LEARN<br>ABOUT<br>CYBERCRIMES</button>
   <button onclick="showpage('quiz')">SHORT<br>QUIZ</button>
 </div>
-         <br><br><br><hr><br><br>
-       <br><br><br>
+         <br><br><br>
+       <hr>
+       <br><br>
+       <br><br>
        <h3><B>MADE BY<BR>HARDIK AWANA <BR>CLASS-8 C<BR>
          CSET </B></h3>
        <BR><BR><BR>
@@ -226,7 +229,7 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
 <br>
 <button onclick="showpage('home')"> HOME PAGE</button>
 <br>
-<button onclick="showpage('cybercrime')"> BACK</button>
+<button onclick="showpage('cybercrime')">   BACK   </button>
 <br><br>
 </div>
 <div id="malware" class="page">
@@ -258,7 +261,7 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
   <br>
   <button onclick="showpage('home')"> HOME PAGE</button>
 <br>
-<button onclick="showpage('cybercrime')"> BACK</button>
+<button onclick="showpage('cybercrime')">   BACK  </button>
 <br><br>
   <br>
   <br>
@@ -285,7 +288,7 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
   <br>
   <button onclick="showpage('home')"> HOME PAGE</button>
 <br>
-<button onclick="showpage('cybercrime')"> BACK</button>
+<button onclick="showpage('cybercrime')">.  BACK   </button>
 <br><br>
   <br>
   <br><br>
