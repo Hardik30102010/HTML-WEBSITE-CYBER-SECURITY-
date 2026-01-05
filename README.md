@@ -95,7 +95,7 @@
          <br>
          <br>
   <button onclick="showpage('cybercrime')">LEARN<br>ABOUT<br>CYBERCRIMES</button>
-  <button onclick="showpage('quiz')">SHORT<br>QUIZ</button>
+  <button onclick="showpage('quiz')">SHORT<br>QUIZ<br> </button>
 </div>
          <br><br><br>
        <hr>
