@@ -389,7 +389,7 @@ You receive a message on a social media app from a stranger offering you a free 
     document.getElementById(id).classList.add('active');
   }
      function AC(){
-         document.getElementById("A").innerHTML="<B>CORRECT ANSWER!</B> You should never share OTPs with strangers.<BR> <button onclick='showpage(quiz2)'> NEXT </button>";
+         document.getElementById("A").innerHTML="<B>CORRECT ANSWER!</B> You should never share OTPs with strangers.<BR> <button onclick=\"showpage('quiz2')\"> NEXT </button>";
          }
      function AW(){
          document.getElementById("A").innerHTML="<B>WRONG ANSWER</B> <BR> <BUTTON onclick='at()'>TRY AGAIN</BUTTON>";
@@ -404,7 +404,7 @@ You receive a message on a social media app from a stranger offering you a free 
         document.getElementById("B").innerHTML=" ";
      }
      function BC(){
-       document.getElementById("A").innerHTML="<B>CORRECT ANSWER!</B> <BR> <button onclick='showpage(quiz3)'> NEXT </button>";
+       document.getElementById("B").innerHTML="<B>CORRECT ANSWER!</B> <BR> <button onclick=\"showpage('quiz3')\"> NEXT </button>";
      }
      function CW(){
        document.getElementById("C").innerHTML="<B>WRONG ANSWER</B> <BR> <BUTTON onclick='ct()'>TRY AGAIN</BUTTON>";
@@ -413,7 +413,7 @@ You receive a message on a social media app from a stranger offering you a free 
         document.getElementById("C").innerHTML=" ";
      }
      function CC(){
-       document.getElementById("C").innerHTML="<B>CORRECT ANSWER!</B><BR> <button onclick='showpage(quizend)'> NEXT </button>";
+       document.getElementById("C").innerHTML="<B>CORRECT ANSWER!</B><BR> <button onclick=\"showpage('quizend')\"> NEXT </button>";
      }
        </SCRIPT>
    </BODY>
