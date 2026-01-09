@@ -296,7 +296,7 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
 <div id="quiz" class="page"> 
   <H1><B>QUIZ</B></H1>
   <BR><BR><HR><BR>
-  <H3><B>Q) Is it safe to share OTPs with strangers?</B></H3>
+  <H3><B>Question 1: Is it safe to share OTPs with strangers?</B></H3>
   <br><br><br>
      <button onclick="QW()"> YES </button>  
   <BR><BR>
@@ -314,21 +314,104 @@ Cheating by Impersonation (Sec 66D): Using communication devices for fraud. </li
   <br>
   <br>
 </div>
+      <div id="quiz2" class="page">
+    <H1><B>QUIZ</B></H1>
+  <BR><BR><HR><BR>
+  <H3><B>Question 2: Which of the following is the primary legislation in India that provides a legal framework for electronic governance, electronic records, and digital signatures, while also defining various cybercrimes?</B></H3>
+  <br><br><br>
+     <button onclick="BW()">A) Indian Penal Code, 1860</button>  
+  <BR><BR>
+  <button onclick="BC()">B) Information Technology (IT) Act, 2000</button>
+  <br><br>
+      <button onclick="BW()">C) Digital Personal Data Protection Act, 2023</button>  
+  <BR><BR>
+      <button onclick="BW()">D) National Cyber Security Policy, 2013  </button>  
+  <BR><BR>
+  <p id="B"> </p>
+  <hr><br>
+  <button onclick="showpage('home')"> HOME PAGE</button>
+  <br>
+  <br><br>
+  <br>
+  <br>
+    <br>
+     <br>
+  <br>
+  <br>
+     </div>
+      <div id="quiz3" class="page">
+    <H1><B>QUIZ</B></H1>
+  <BR><BR><HR><BR>
+  <H3><B>Question 3: Safe Online Practices
+You receive a message on a social media app from a stranger offering you a free "game recharge" or "gift card" if you click a link. What is the safest thing to do?
+<br><br><br>
+     <button onclick="CW()">A) Click the link quickly before the offer expires.</button>  
+  <BR><BR>
+  <button onclick="CW()">B) Share the link with all your friends so they can get it too.</button>
+  <br><br>
+      <button onclick="CC()">C) Ignore the message and block the sender.</button>  
+  <BR><BR>
+      <button onclick="CW()">D) Reply and ask for more details to see if it's real.</button>  
+  <BR><BR>
+  <p id="C"> </p>
+  <hr><br>
+  <button onclick="showpage('home')"> HOME PAGE</button>
+  <br>
+  <br><br>
+  <br>
+  <br>
+    <br>
+     <br>
+  <br>
+  <br>
+     </div>
+      <div id="quizend" class="page">
+       <H2><B>QUIZ COMPLETED</B></H2>
+      <BR>
+      <br>
+      <br>
+      <hr>
+      <h2> CONGRATULATION </h2>
+      <hr>
+      <br>
+      <button onclick="showpage('home')"> HOME PAGE</button>
+      <br>
+      <br>
+      </div>
      <SCRIPT>
      function showpage(id) {
     document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
     document.getElementById(id).classList.add('active');
   }
      function QC(){
-         document.getElementById("A").innerHTML="<B>CORRECT ANSWER!<B> You should never share OTPs with strangers.<BR> Click on the  <b>HOME PAGE</b> button";
+         document.getElementById("A").innerHTML="<B>CORRECT ANSWER!<B> You should never share OTPs with strangers.<BR> <button onclick='showpage(quiz2)'> NEXT </button>";
          }
      function QW(){
-         document.getElementById("A").innerHTML="<B>WRONG ANSWER<B> <BR> <BUTTON onclick='ct()'>TRY AGAIN</BUTTON>";
+         document.getElementById("A").innerHTML="<B>WRONG ANSWER<B> <BR> <BUTTON onclick='at()'>TRY AGAIN</BUTTON>";
          } 
-     function ct(){
+     function at(){
          document.getElementById("A").innerHTML=" ";
        }
-     </SCRIPT>
+     function BW(){
+       document.getElementById("A").innerHTML="<B>WRONG ANSWER<B> <BR> <BUTTON onclick='at()'>TRY AGAIN</BUTTON>";
+    }
+     function bt(){
+        document.getElementById("B").innerHTML=" ";
+     }
+     function BC(){
+
+     }
+     
+     function CW(){
+
+     }
+     function ct(){
+        document.getElementById("C").innerHTML=" ";
+     }
+     function CC(){
+       
+     }
+       </SCRIPT>
    </BODY>
 </HTML>    
       
