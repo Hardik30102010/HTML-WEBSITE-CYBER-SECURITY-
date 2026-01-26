@@ -13,11 +13,7 @@
      .points{
        text-align: left;
      }
-     .top{
-       background-color: #040424;
-        text-align: left;
-       padding-top: 25px;
-     }
+
      .head{
        background-color: #0b0b96;
        padding-top: 50px;
@@ -229,12 +225,6 @@
 </div>
 
 <div id="phishing" class="page">
-      <div class="top">
-      <SELECT>
-<OPTION><a onclick="showpage('home')"> HOME PAGE</a>
-<OPTION><a onclick="showpage('cybercrime')">BACK</a>
-    </SELECT>  
-      </div>
       <div class="head">
   <h1><b>PHISHING</b></h1>
 <br><br>
@@ -270,15 +260,13 @@
 <br><br>
 <hr>
 <br>
+<button onclick="showpage('home')"> HOME PAGE</button>
+<br>
+<button onclick="showpage('cybercrime')">BACK</button>
+      
 <br><br>
 </div>
 <div id="malware" class="page">
-     <div class="top">
-      <SELECT>
-<OPTION><a onclick="showpage('home')"> HOME PAGE</a>
-<OPTION><a onclick="showpage('cybercrime')">BACK</a>
-    </SELECT>  
-      </div>
       <div class="head">
   <H1><B>MALWARE </B></H1>
   <br><br>
@@ -309,15 +297,13 @@
   <br>
   <br><br>
   <br>
+      <button onclick="showpage('home')"> HOME PAGE</button>
+<br>
+<button onclick="showpage('cybercrime')">BACK</button>
+      
   <br>
 </div>
 <div id="bully" class="page">
-      <div class="top">
-      <SELECT>
-<OPTION><a onclick="showpage('home')"> HOME PAGE</a>
-<OPTION><a onclick="showpage('cybercrime')">BACK</a>
-    </SELECT>  
-      </div>
       <div class="head">
   <h1><b>CYBERBULLYING<br>AND<br>CYBERSTALKING</b></h1>
   <br> 
@@ -339,7 +325,11 @@
   <br><br>
   <hr>
   <br>
-<br><br>
+<br>
+      <button onclick="showpage('home')"> HOME PAGE</button>
+<br>
+<button onclick="showpage('cybercrime')">BACK</button>
+      <br>
   <br>
   <br><br>
 </div>
@@ -449,33 +439,43 @@
     document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
     document.getElementById(id).classList.add('active');
   }
+       
      function AC(){
          document.getElementById("A").innerHTML="<B>CORRECT ANSWER!</B> You should never share OTPs with strangers.<BR> <button onclick=\"showpage('quiz2')\"> NEXT </button>";
          }
+       
      function AW(){
          document.getElementById("A").innerHTML="<B>WRONG ANSWER</B> <BR> <BUTTON onclick='at()'>TRY AGAIN</BUTTON>";
          } 
+       
      function at(){
          document.getElementById("A").innerHTML=" ";
        }
+       
      function BW(){
        document.getElementById("B").innerHTML="<B>WRONG ANSWER</B> <BR> <BUTTON onclick='bt()'>TRY AGAIN</BUTTON>";
     }
+       
      function bt(){
         document.getElementById("B").innerHTML=" ";
      }
+       
      function BC(){
        document.getElementById("B").innerHTML="<B>CORRECT ANSWER!</B> <BR> <button onclick=\"showpage('quiz3')\"> NEXT </button>";
      }
+       
      function CW(){
        document.getElementById("C").innerHTML="<B>WRONG ANSWER</B> <BR> <BUTTON onclick='ct()'>TRY AGAIN</BUTTON>";
      }
+       
      function ct(){
         document.getElementById("C").innerHTML=" ";
      }
+       
      function CC(){
        document.getElementById("C").innerHTML="<B>CORRECT ANSWER!</B><BR> <button onclick=\"showpage('quizend')\"> NEXT </button>";
-     }
+       }
+       
        </SCRIPT>
    </BODY>
 </HTML>    
