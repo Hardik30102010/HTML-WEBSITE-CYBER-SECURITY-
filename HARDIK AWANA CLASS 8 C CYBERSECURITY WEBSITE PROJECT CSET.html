@@ -448,6 +448,64 @@
   <br>
   <br>
      </div>
+            <div id="quiz4" class="page">
+      <div class="head">
+    <H1><B>QUIZ</B></H1>
+  <BR><BR>
+      </div>
+      <HR><BR>
+  <H3>Question 4:You receive a message on a social media app from a stranger offering you a free "game recharge" or "gift card" if you click a link. What is the safest thing to do?</H3>
+<br><br><br>
+     <button onclick="DW()">A) Click the link quickly before the offer expires.</button>  
+  <BR><BR>
+  <button onclick="DW()">B) Share the link with all your friends so they can get it too.</button>
+  <br><br>
+      <button onclick="DC()">C) Ignore the message and block the sender.</button>  
+  <BR><BR>
+      <button onclick="DW()">D) Reply and ask for more details to see if it's real.</button>  
+  <BR><BR>
+  <p id="D"> </p>
+  <hr><br>
+  <button onclick="showpage('home')"> HOME PAGE</button>
+  <br>
+  <br><br>
+  <br>
+  <br>
+    <br>
+      <br>
+     <br>
+  <br>
+  <br>
+     </div>
+      <div id="quiz5" class="page">
+      <div class="head">
+    <H1><B>QUIZ</B></H1>
+  <BR><BR>
+      </div>
+      <HR><BR>
+  <H3>Question 3:You receive a message on a social media app from a stranger offering you a free "game recharge" or "gift card" if you click a link. What is the safest thing to do?</H3>
+<br><br><br>
+     <button onclick="EW()">A) Click the link quickly before the offer expires.</button>  
+  <BR><BR>
+  <button onclick="EW()">B) Share the link with all your friends so they can get it too.</button>
+  <br><br>
+      <button onclick="EC()">C) Ignore the message and block the sender.</button>  
+  <BR><BR>
+      <button onclick="EW()">D) Reply and ask for more details to see if it's real.</button>  
+  <BR><BR>
+  <p id="E"> </p>
+  <hr><br>
+  <button onclick="showpage('home')"> HOME PAGE</button>
+  <br>
+  <br><br>
+  <br>
+  <br>
+    <br>
+      <br>
+     <br>
+  <br>
+  <br>
+     </div>
       <div id="quizend" class="page">
       <div class="head">
        <H1><B>QUIZ COMPLETED</B></H1>
@@ -507,9 +565,31 @@
      }
        
      function CC(){
-       document.getElementById("C").innerHTML="<B>CORRECT ANSWER!</B><BR> <button onclick=\"showpage('quizend')\"> NEXT </button>";
+       document.getElementById("C").innerHTML="<B>CORRECT ANSWER!</B><BR> <button onclick=\"showpage('quiz4')\"> NEXT </button>";
        }
+     function DW(){
+       document.getElementById("D").innerHTML="<B>WRONG ANSWER</B> <BR> <BUTTON onclick='dt()'>TRY AGAIN</BUTTON>";
+     }
        
+     function dt(){
+        document.getElementById("D").innerHTML=" ";
+     }
+       
+     function DC(){
+       document.getElementById("D").innerHTML="<B>CORRECT ANSWER!</B><BR> <button onclick=\"showpage('quiz5')\"> NEXT </button>";
+       }  
+       
+     function EW(){
+       document.getElementById("E").innerHTML="<B>WRONG ANSWER</B> <BR> <BUTTON onclick='et()'>TRY AGAIN</BUTTON>";
+     }
+       
+     function et(){
+        document.getElementById("E").innerHTML=" ";
+     }
+       
+     function EC(){
+       document.getElementById("E").innerHTML="<B>CORRECT ANSWER!</B><BR> <button onclick=\"showpage('quizend')\"> NEXT </button>";
+       }
        </SCRIPT>
    </BODY>
 </HTML>    
