@@ -100,6 +100,7 @@
     .law-buttons button {
      width: 200px;
      height: 110px;
+   
     }
     </STYLE>
   </HEAD>
@@ -311,7 +312,12 @@
 <button onclick="showpage('home')"> HOME PAGE</button>
 <br>
 <button onclick="showpage('cyberlaws')">BACK</button>
-      
+   <br>
+      <br>
+      <br>
+      <br>
+      <br>
+         
 <br><br>
   </div>
 <div id="DPDP" class="page">
@@ -475,7 +481,7 @@
   <br><br><br>
      <button onclick="AW()"> YES </button>  
   <BR><BR>
-  <button onclick="AC()"> NO </button>
+  <button onclick="showpage('za')"> NO </button>
   <br><br>
   <p id="A"> </p>
   <hr><br>
@@ -500,7 +506,7 @@
   <br><br><br>
      <button onclick="BW()">A) Indian Penal Code, 1860</button>  
   <BR><BR>
-  <button onclick="BC()">B) Information Technology (IT) Act, 2000</button>
+  <button onclick="showpage('zb')">B) Information Technology (IT) Act, 2000</button>
   <br><br>
       <button onclick="BW()">C) Digital Personal Data Protection Act, 2023</button>  
   <BR><BR>
@@ -531,7 +537,7 @@
   <BR><BR>
   <button onclick="CW()">B) Share the link with all your friends so they can get it too.</button>
   <br><br>
-      <button onclick="CC()">C) Ignore the message and block the sender.</button>  
+      <button onclick="showpage('zc')">C) Ignore the message and block the sender.</button>  
   <BR><BR>
       <button onclick="CW()">D) Reply and ask for more details to see if it's real.</button>  
   <BR><BR>
@@ -564,7 +570,7 @@
   <br><br>
       <button onclick="DW()">C) 101</button>  
   <BR><BR>
-      <button onclick="DC()">D) 1930</button>  
+      <button onclick="showpage('zd')">D) 1930</button>  
   <BR><BR>
   <p id="D"> </p>
   <hr><br>
@@ -589,10 +595,11 @@
   <H2>
       Question 5:You receive a  message from an unknown number claiming you have won a "KBC Lottery" and asking you to click a link to claim the prize. What is this type of attack called?
  </h2>
-<br><br><br>
+<br><br>
+      <br>
      <button onclick="EW()">A) Hacking</button>  
   <BR><BR>
-  <button onclick="EC()">B) Phishing</button>
+  <button onclick="showpage('quizend')">B) Phishing</button>
   <br><br>
       <button onclick="EW()">C) Cyberbullying</button>  
   <BR><BR>
@@ -611,9 +618,104 @@
   <br>
   <br>
      </div>
+      <div id="za" class="page">
+      <div class="head">
+       <H1>
+      <B>CORRECT!</B>
+    </H1>
+      <BR>
+      <br>
+      <br>
+      </div>
+      <hr>
+      <br>
+      <button onclick="showpage('quiz2')"> NEXT QUIZ</button>
+      
+      <br>
+      <hr>
+      <br>
+      <button onclick="showpage('home')"> HOME PAGE</button>
+      <br>
+      <br>
+      <br>
+      <hr>
+      <br>
+      </div>
+      <div id="zb" class="page">
+      <div class="head">
+       <H1>
+      <B>CORRECT!</B>
+    </H1>
+      <BR>
+      <br>
+      <br>
+      </div>
+      <hr>
+      <br>
+      <button onclick="showpage('quiz3')"> NEXT QUIZ</button>
+      
+      <br>
+      <hr>
+      <br>
+      <button onclick="showpage('home')"> HOME PAGE</button>
+      <br>
+      <br>
+      <br>
+      <hr>
+      <br>
+      </div>
+      <div id="zc" class="page">
+      <div class="head">
+       <H1>
+      <B>CORRECT!</B>
+    </H1>
+      <BR>
+      <br>
+      <br>
+      </div>
+      <hr>
+      <br>
+      <button onclick="showpage('quiz4')"> NEXT QUIZ</button>
+      
+      <br>
+      <hr>
+      <br>
+      <button onclick="showpage('home')"> HOME PAGE</button>
+      <br>
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+      </div>
+      <div id="zd" class="page">
+      <div class="head">
+       <H1>
+      <B>CORRECT!</B>
+    </H1>
+      <BR>
+      <br>
+      <br>
+      </div>
+      <hr>
+      <br>
+      <button onclick="showpage('quiz5')"> NEXT QUIZ</button>
+      
+      <br>
+      <hr>
+      <br>
+      <button onclick="showpage('home')"> HOME PAGE</button>
+      <br>
+      <br>
+      <br>
+      <hr>
+      <br>
+      </div>
       <div id="quizend" class="page">
       <div class="head">
-       <H1><B>QUIZ COMPLETED</B></H1>
+       <H1>
+      <B>QUIZ COMPLETED</B>
+    </H1>
       <BR>
       <br>
       <br>
@@ -630,16 +732,24 @@
       <br>
       <hr>
       <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
       </div>
      <SCRIPT>
      function showpage(id) {
     document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
     document.getElementById(id).classList.add('active');
-  }
+ }
        
-     function AC(){
-         document.getElementById("A").innerHTML="<B>CORRECT ANSWER!</B> You should never share OTPs with strangers.<BR> <button onclick=\"showpage('quiz2')\"> NEXT </button>";
-         }
+     
        
      function AW(){
          document.getElementById("A").innerHTML="<B>WRONG ANSWER</B> <BR> <BUTTON onclick='at()'>TRY AGAIN</BUTTON>";
@@ -657,44 +767,42 @@
         document.getElementById("B").innerHTML=" ";
      }
        
-     function BC(){
-       document.getElementById("B").innerHTML="<B>CORRECT ANSWER!</B> <BR> <button onclick=\"showpage('quiz3')\"> NEXT </button>";
-     }
+     
        
      function CW(){
        document.getElementById("C").innerHTML="<B>WRONG ANSWER</B> <BR> <BUTTON onclick='ct()'>TRY AGAIN</BUTTON>";
+    
      }
        
      function ct(){
         document.getElementById("C").innerHTML=" ";
+    
      }
        
-     function CC(){
-       document.getElementById("C").innerHTML="<B>CORRECT ANSWER!</B><BR> <button onclick=\"showpage('quiz4')\"> NEXT </button>";
-       }
+     
      function DW(){
        document.getElementById("D").innerHTML="<B>WRONG ANSWER</B> <BR> <BUTTON onclick='dt()'>TRY AGAIN</BUTTON>";
+     
      }
        
      function dt(){
         document.getElementById("D").innerHTML=" ";
+     
      }
        
-     function DC(){
-       document.getElementById("D").innerHTML="<B>CORRECT ANSWER!</B><BR> <button onclick=\"showpage('quiz5')\"> NEXT </button>";
-       }  
+     
        
      function EW(){
        document.getElementById("E").innerHTML="<B>WRONG ANSWER</B> <BR> <BUTTON onclick='et()'>TRY AGAIN</BUTTON>";
+     
      }
        
      function et(){
         document.getElementById("E").innerHTML=" ";
+     
      }
        
-     function EC(){
-       document.getElementById("E").innerHTML="<B>CORRECT ANSWER!</B><BR> <button onclick=\"showpage('quizend')\"> NEXT </button>";
-       }
+     
        </SCRIPT>
    </BODY>
 </HTML>    
